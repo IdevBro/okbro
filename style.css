@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000; /* qora fon tashqarisi */
+}
+
+.container {
+  background-color: #fbe3c4; /* asosiy fon */
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+  border-left: 15px solid #8b0000;
+  border-right: 15px solid #8b0000;
+  min-height: 100vh;
+}
+
+.title {
+  background-color: cyan;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 24px;
+  margin-bottom: 30px;
+  border: 3px solid #8b0000;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card .icon {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #333;
+}
